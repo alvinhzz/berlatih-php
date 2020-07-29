@@ -1,3 +1,3 @@
 # berlatih-php
-<<Sanbercode>>
+Sanbercode
 Berlatih PHP minggu kedua hari ke 8

@@ -14,11 +14,13 @@ function palindrome($string)
 function palindrome_angka($angka)
 {
     if ($angka >= 0 && $angka <= 8) {
-        return $angka += 1;
+        return $angka++;
+    } else if (palindrome($angka)) {
+        $angka++;
     }
 
     while (palindrome($angka) == false) {
-        $angka += 1;
+        $angka++;
     }
 
     return $angka;
