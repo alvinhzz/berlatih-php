@@ -1,11 +1,12 @@
 <?php
-function tentukan_deret_geometri($arr) {
-// kode di sini
-$suku_arit = $arr[1] / $arr[0];
+function tentukan_deret_geometri($arr)
+{
+    // kode di sini
+    $suku_geo = $arr[1] / $arr[0];
 
     for ($i = 1; $i < sizeof($arr); $i++) {
         $jarak = $arr[$i] / $arr[$i - 1];
-        if ($jarak != $suku_arit) {
+        if ($jarak != $suku_geo) {
             return "false <br>";
         }
     }
