@@ -14,7 +14,7 @@ function palindrome($string)
 function palindrome_angka($angka)
 {
     if ($angka >= 0 && $angka <= 8) {
-        return $angka++;
+        return $angka += 1;
     } else if (palindrome($angka)) {
         $angka++;
     }
